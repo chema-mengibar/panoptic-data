@@ -1,17 +1,3 @@
-
-
-UN proyecto consiste en personas que utilizan herramientas para crear algo, 
-En ese proceso, 
-suceden un monton de   @, 
-comunicacion entre los miembros, toma de decisiones
-creacion.
-
-En el proyecto, no solo se crea el producto final, sino que  durante ese proceso de creacion, se genera una serie de elementos que resultado de ...
-cada conversacion en un chat, cada documento creado, cada commit, 
-Si tomamos cada unos de ese elemento y separamos su contenido creando nuevo identificando nuevos elementos, como conceptos, palabras, enlaces ...
-y las tomamos como entidades propias, que tiene  aracteristicas y estan relacionadas entre si...
-
-
 En un proyecto esta formado por un conjunto de entidades que de alguna forma estan relacionadas entre si.
 Estas entidades tienen distintas formas y propiedades: podemos hablar de un usuario, undocumento, una conversacion en un chat,
 un archivo con codigo, etc..
@@ -33,5 +19,3 @@ El problema en este escenario reside en:
 
 Vamos a concretar un poco mas poniendo un ejemplo.
 @todo:ejemplo
-
-
