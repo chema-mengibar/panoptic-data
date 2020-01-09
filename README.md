@@ -14,11 +14,15 @@ http://www.datavirtualizationblog.com/metadata-enterprise-data-layer/
 - http://linkeddatabook.com/editions/1.0/#htoc61
 - http://www.visualdataweb.org/tools.php
 - http://graphite.ecs.soton.ac.uk/browser/
+
+- https://www.w3.org/RDF/
+
 - http://linkeddata.org/home
+- https://www.w3.org/wiki/TaskForces/CommunityProjects/LinkingOpenData/SemanticWebSearchEngines
+- https://www.w3.org/standards/semanticweb/
 
 
-https://www.w3.org/RDF/
-https://en.wikipedia.org/wiki/Resource_Description_Framework
+- https://en.wikipedia.org/wiki/Resource_Description_Framework
 
 https://rdf4j.org/documentation/getting-started/
 

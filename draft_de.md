@@ -49,8 +49,39 @@ für die korrekte Entwicklung des Projektes
 
 [466]
 
-@todo
+## Das Semantic Web
+Aber..., wir haben bereits Verknüpfungen und Inhalte, reicht das nicht aus?
+Natürlich können wir schon jetzt mit mehr oder weniger Aufwand Verknüpfungen herstellen und diese manuell aktualisieren.
+Und wenn wir die Verknüpfungen etwas wertvoller machen, indem wir diesen einen Bedeutung geben?
+Und wenn wir die feste Struktur der Inhalte, Bereiche und Kanäle verschwinden lassen, so dass der Benutzer die gewünschte Form nach seinen Bedürfnissen geben kann.
+Wie im das Semantic Web [1], könnten wir ein System von Dateninteraktion, Vokabularen und Regeln für die Arbeit mit den Daten schaffen.
+
+[563]
+
+# Anwendung
+Wir haben bereits alle unsere Inhalte in volatile Entitäten und Verknüpfungen aufgeteilt,
+Wie und wozu kann dies genutzt werden?
+Wenn wir über die Nutzung eines Werkzeugs sprechen, müssen wir das Ziel des Benutzers, der es benutzt, seine Bedürfnisse und Eigenschaften berücksichtigen.
+In einem Projekt haben wir verschiedene Benutzer, mit unterschiedlichen Rollen, Kenntnissen, Berechtigungen, etc.
+Für jede von ihnen hat die gleiche Information eine andere Bedeutung und Relevanz.
+
+Nehmen wir an, wir machen eine Website für einen Kunden.
+Der Kunde hat eine Reihe von Dokumenten erstellt, eines pro Seite im Web, in jedem dieser Dokumente definiert er: welche Bilder, Texte und andere Elemente wie Formulare, Buttons, etc. verwendet werden müssen.
+
+Als Designer wollen wir wissen, welche Bildformate im gesamten Web verwendet werden. Um das zu machen,
+erstellen wir ein eigenes neues Dokument, mit einer Tabelle, die wir mit den Formaten ausfüllen, die wir in jedem der vom Kunden angegebenen Dokumente finden, z.B. 50.
+Wenn wir alle Links überprüft haben, haben wir bereits unsere Liste der Formate, und wir sind 100% sicher, dass der Kunde in der von uns benötigten Zeit kein Format geändert hat.
+Wir sind sicher, dass sich in den nächsten Tagen kein Format ändern wird, oder dass der Kunde uns mitteilen wird, dass sich etwas geändert hat.
+
+Wenn wir ein Programm im Fernsehen sehen wollen, das uns interessiert, können wir durch die 50 Kanäle zappen und suchen, egal wie lange wir brauchen, in der Hoffnung, das zu finden, was wir suchen, oder wir können direkt zu der Liste mit allen Sendungen und Programme gehen und schnell genau entscheiden in welche Sendung wir springen wollen.
+
+[828]
+
+Als Programierer ...
 
 # Tool
 Metadata|rdf|graph
 @todo
+
+
+[1] https://www.w3.org/standards/semanticweb/
