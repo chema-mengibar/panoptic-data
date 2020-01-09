@@ -1,21 +1,42 @@
-En un proyecto esta formado por un conjunto de entidades que de alguna forma estan relacionadas entre si.
-Estas entidades tienen distintas formas y propiedades: podemos hablar de un usuario, undocumento, una conversacion en un chat,
-un archivo con codigo, etc..
-Durante el desarrollo del proyecto estan entidades aparecen, cambian o desaparecen.
-y se crean relaciones entre ellas: un enlace a un documento en un chat, una tabla con capturas de pantalla de una web y comentarios, etc..
-Estas relaciones tienen varias caracteristicas:
-visibilidad: son a veces visibles por los miembros del proyecto, otras veces pasan desapercibidas.
-utilidad: pueden ser utiles para el proyecto ya que contienen informacion relevante para la ejecucion del proyecto, por eso se intentan plasmar en documentos, mediante enlaces, capturas de pantalla, registros en un log,
-caducidad: tienen un periodo de vida, pudiendo quedar rapidamente obsoletas: un enlace a un documento con informacion no actualizada, un commit a un archivo que ya no existe en el repositorio.
+Cuando colaboramos en un proyecto, formamos parte de un equipo, interactuamos con otras personas directa o indirectamente.
+Ya sea creando codigo, organizando el trabajo de otros, definiendo o especificando,
+Este proceso de interaccion crea una serie de elemntos:
+- cada ver que se establece una comunicacion o una decision en un chat o email entre personas,
+  crean contenido en una linea de tiempo,
+- cada documento, archivo, sea codigo, diseno o documentacion
+- cada ticket, epic o sprint definido en la planificacion
 
-Resumiendo, en un proyecto existen entidad que estan en constante cambio, y entre estas entidades existen relaciones que del mismo cambian constantemente afectadas por el desarrollo del proyecto.
+estos elementos tienen diferentes formas y caracteristicas:
+un texto, un concepto, un numero de ticket, un archivo, una funcion en codigo,
+un canal en chat, una pagina en la wiki, un enlace, etc..
 
-Ok, y...?
-El problema en este escenario reside en:
-- desconocimiento de los miembros del proyecto de la existencia de entidades y/o relaciones utiles para ellos.
+todos estos elementos aparecenen, varian y desaparecen durante el periodo de vida del proyecto,
+interactuan entre ellos, estableciendo conexiones
+
+todos estos elementos tienen caracteristicas en comun, en relacion con el proyecto:
+- visibilidad: son a veces visibles por los miembros del proyecto, otras veces pasan desapercibidas.
+- utilidad: pueden ser utiles para el proyecto ya que contienen informacion relevante para la ejecucion del proyecto, por eso se intentan plasmar en documentos, mediante enlaces, capturas de pantalla, registros en un log,
+- caducidad: tienen un periodo de vida, pudiendo quedar rapidamente obsoletas: un enlace a un documento con informacion no actualizada, un commit a un archivo que ya no existe en el repositorio.
+
+(Resumiendo, en un proyecto existen entidad que estan en constante cambio, y entre estas entidades existen relaciones que del mismo cambian constantemente afectadas por el desarrollo del proyecto.)
+
+Todos las personas integrantes del proyecto están constantemente generando e interactuando con estos elementos, elementos que contienen informacion y afectan al proyecto.
+Y es aquí donde radica el problema. Saber que elementos/informacion se está creando o existen, cual es relevante para el proyecto,
+como esta relacionada esa informacion, y que informacion es obsoleta.
+
+En mi caso como Programador FrontEnd ...
+
+Sabemos que existe de conectar las informaciones que se crean en un proyecto, por eso no solo existen hyperenlaces a paginas de una wiki,
+sino que mediante enlaces accedemos al codigo en el repositorio, movernos en el codigo en la IDE,
+acceder a una conversacion en un chat, a la descripcion de una tarea en un ticket, etc..
+
+Estas conexiones tienen las mismas caracteristicas que los propios elementos, visibilidad, utilidad y caducidad.
+
+En este escenario, de entidades y conexiones, encontramos pues problemas que afectan al desarrollo del proyecto:
+- desconocimiento por parte de los miembros del proyecto de la existencia de entidades y/o relaciones utiles para ellos.
 - control sobre la obsolescencia de entidades y conexiones
 - descubrimiento de conexiones relevantes para los usuarios
 - vista en conjunto y busqueda de entidades y conexiones existentes en cierto momento del proyecto
 
-Vamos a concretar un poco mas poniendo un ejemplo.
-@todo:ejemplo
+Poder permitir a los miembros del proyecto obtener una vision y accesso a las entidades relevantes y actuales del proyecto es fundamental
+para el correcto desarrollo del proyecto

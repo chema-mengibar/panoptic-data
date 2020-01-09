@@ -1,20 +1,22 @@
 # Panoptic data
 
-## Context
 
-### Panoptic Control
+## Panoptic Control
 https://en.wikipedia.org/wiki/Panopticon
-
-En unn projecto realizado por un equipo con diferentes miembros, se utilizan duferentes herramientas para tareas como documentacion, especificacion, comunicacion, toma de decisiones, almacenaje y versionado de documentos o ficheros,
-( contrasenyas, usuarios, permisos, etc.. )
-
-Dieferente grupos de personas se encargan de diferentes tareas, ello implica una gran disciplina a la hora de estructurar la informacion, aseguranse de que la informacion está duisponible en el estado actual para todos los miembros que la necesitan, y que se le
-
 
 ## Metadata
 http://www.datavirtualizationblog.com/metadata-enterprise-data-layer/
 
 ## RDF
+
+- https://www.w3.org/DesignIssues/LinkedData.html
+- https://wiki.dbpedia.org
+- http://linkeddatabook.com/editions/1.0/#htoc61
+- http://www.visualdataweb.org/tools.php
+- http://graphite.ecs.soton.ac.uk/browser/
+- http://linkeddata.org/home
+
+
 https://www.w3.org/RDF/
 https://en.wikipedia.org/wiki/Resource_Description_Framework
 
