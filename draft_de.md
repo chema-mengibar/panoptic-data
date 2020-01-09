@@ -77,6 +77,8 @@ dass sich in den nächsten Tagen kein Format ändern wird, oder dass der Kunde u
 oder wir können direkt zur "Programmliste" gehen und uns einen schnellen Überblick darüber verschaffen was uns interessiert.
 Das spart Zeit und führt uns schnell zur Entscheidung.
 
+[828]
+
 Als Programierer ...
 
 # Tool
