@@ -1,0 +1,122 @@
+Cuando colaboramos en un proyecto, formamos parte de un equipo, interactuamos con otras personas directa o indirectamente.
+Ya sea creando codigo, organizando el trabajo de otros, definiendo o especificando,
+Este proceso de interaccion crea una serie de elemntos:
+- cada ver que se establece una comunicacion o una decision en un chat o email entre personas,
+  crean contenido en una linea de tiempo,
+- cada documento, archivo, sea codigo, diseno o documentacion
+- cada ticket, epic o sprint definido en la planificacion
+
+estos elementos tienen diferentes formas y caracteristicas:
+un texto, un concepto, un numero de ticket, un archivo, una funcion en codigo,
+un canal en chat, una pagina en la wiki, un enlace, etc..
+
+todos estos elementos aparecenen, varian y desaparecen durante el periodo de vida del proyecto,
+interactuan entre ellos, estableciendo conexiones
+
+todos estos elementos tienen caracteristicas en comun, en relacion con el proyecto:
+- visibilidad: son a veces visibles por los miembros del proyecto, otras veces pasan desapercibidas.
+- utilidad: pueden ser utiles para el proyecto ya que contienen informacion relevante para la ejecucion del proyecto, por eso se intentan plasmar en documentos, mediante enlaces, capturas de pantalla, registros en un log,
+- caducidad: tienen un periodo de vida, pudiendo quedar rapidamente obsoletas: un enlace a un documento con informacion no actualizada, un commit a un archivo que ya no existe en el repositorio.
+
+(Resumiendo, en un proyecto existen entidad que estan en constante cambio, y entre estas entidades existen relaciones que del mismo cambian constantemente afectadas por el desarrollo del proyecto.)
+
+Todos las personas integrantes del proyecto están constantemente generando e interactuando con estos elementos, elementos que contienen informacion y afectan al proyecto.
+Y es aquí donde radica el problema. Saber que elementos/informacion se está creando o existen, cual es relevante para el proyecto,
+como esta relacionada esa informacion, y que informacion es obsoleta.
+
+En mi caso como Programador FrontEnd ...
+
+Sabemos que existe de conectar las informaciones que se crean en un proyecto, por eso no solo existen hyperenlaces a paginas de una wiki,
+sino que mediante enlaces accedemos al codigo en el repositorio, movernos en el codigo en la IDE,
+acceder a una conversacion en un chat, a la descripcion de una tarea en un ticket, etc..
+
+Estas conexiones tienen las mismas caracteristicas que los propios elementos, visibilidad, utilidad y caducidad.
+
+En este escenario, de entidades y conexiones, encontramos pues problemas que afectan al desarrollo del proyecto:
+- desconocimiento por parte de los miembros del proyecto de la existencia de entidades y/o relaciones utiles para ellos.
+- control sobre la obsolescencia de entidades y conexiones
+- descubrimiento de conexiones relevantes para los usuarios
+- vista en conjunto y busqueda de entidades y conexiones existentes en cierto momento del proyecto
+
+Poder permitir a los miembros del proyecto obtener una vision y accesso a las entidades relevantes y actuales del proyecto es fundamental
+para el correcto desarrollo del proyecto
+
+
+Pero..., ya tenemos enlaces y contenido, no es suficiente?
+Sin duda, ya podemos establecer las conexiones, con mas o menos trabajo y mantenerlas actualizadas de forma manual.
+Pero, es suficiente?
+Y si hicieramos de las conexiones solo una parte, ampliamos Y si aportamos a esas conexiones un significado?
+Y si hicieramos desaparecer la estructura fija de los contenidos, areas y canales, permitiendo al usuario darle la forma deseada segun sus necesidades.
+Como se define en la Web Semantica y Linked Data[1], crear un sistema de interaccion de datos, vocabularios y reglas para trabajar con los datos.
+
+
+
+Ya hemos descompuesto todo nuestro contenido, en entidades y conexiones volatiles, sin froma aparente.
+Como se puede utilizar esto, y con que fin?
+Cuando hablamos del uso de una herramientas, debemos tener en cuenta el objetivo del usuario que la utiliza, sus necesidades y caracteristicas.
+
+En un proyecto tenemos diferentes usuarios, con diferentes roles, conocimientos, permisos, etc..
+Para cada uno de ellos tiene la misma información un significado y una relevancia diferente.
+
+Supongamos que estamos haciendo una web para un cliente.
+El cliente ha creado una serie de documentos, uno por pagina en la web, en cada de esos documentos especifica: que imagenes se utilizarán, textos, y otros elementos como formularios, botones, etc..
+
+Nosotros como programadores, queremos saber que formatos de images se utilizan en toda la web. Para ello,
+creamos un nuevo documento propio, con una tabla que vamos rellenando con los formatos que encontramos en cada uno de los documentos especificados por el cliente, pongamos por ejemplo 50.
+Al comprobar todos los enlaces, ya tenemos nuestra lista de formatos , y estamos 100% seguros de que en ese tiempo que hemos bnecesitado, el cliente no ha cambiado ningun formato.
+Estamos seguros de que los proximos dias, ningun formato cambiará,o que el cliente nos informará de que algo ha cambiado.
+
+Podemos por supuesto recibir una notificación si el cliente ha cambiado algo,
+o estar seguro que las siguientes personas encargadas de trabajar con las imagenes, volverán a comprobar la lista de formatos de cada página de nuevo.
+
+Cuando quieres ver una programa en la tele que te interesa, puedes zapear los 60 canales buscando y perder tiempo
+con las esperanza de encontar lo que estas buscando, o acceder directamente a una la lista con todas las cadenas
+
+
+Pongamos otro ejemplo, que afecta a mas integrantes de un projecto web.
+
+Los servicios web que una aplicacion utiliza, los puntos de union entre Front-End y Back-End
+Entre el almacenamiento y procesamiento  datos y la visualizacion ene l lado cliente.
+
+Obtener una lista de todos los servicios disponibles,
+o solo dedicados a cierta area
+o solo los relevantes para ciertas personas o tareas.
+
+Mostrar ciertas caracteristicas de los servicios: version, parametros,
+o ciertas caracteristicas que nos ayuden a clasificarlos.
+
+Mostrar historial, protocolos de conversaciones y decisiones relacionadas con este tema.
+
+Cuantas herramientasse ven involucardas en este contexto?
+A cuantas fuentes tendriamos que acceder para obtener la informacion que necesitamos?
+Estan relacionados unicamente programadores en este contexto, o hay tambien persoanas con otras funciones, que necesitanm accceder a este tipo de informacion?
+Obtienen esas personas realmente unicamenente la informacion relevante
+para sus necesidades o tareas? o teiene que moverse entre diferentes herramientas, enlaces
+como Swagger, Wikis, documentos, emails, hasta encontrar lo que realmente necesitan?
+
+
+En este contexto se plantea la posibilidad de implementar una herramienta en cualquier proyecto capaz de conectar los datos de las diferentes fuentes/herramientas que se utilizan durante la ejecucion del proyecto.
+La herramienta consiste en un conjunto de pipelines y tareas que procesan continuamente las fuentes y datos, generando y actualizando principalmente una base de datos que almacena las conexiones entre ellos.
+
+Los temas relacionados son varios, afectan a diferentes areas y plantean diversas cuestiones.
+
+Automatizacion
+Especifica el grado de automatizacion de la herramienta. Que papel juega el usuario en el sistema de datos.
+
+Integracion
+Se refiere a la integracion de las diferentes fuentes mediante Api u otros mecanismos.
+Que complejidad implica en cuanto a configuracion, mantenimiento, conocimiento necesarios.
+
+Usuarios
+Definicion de los diferentes tipos de usuario y la interaccion con la herramienta.
+En este aspecto es importante distinguir entre roles, seguridad, acceso a los datos.
+
+Mejoras practicas y standares
+Definir que standares utilizar en los elementos y areas del proyecto:
+standares en metadatos, formatos, arquitectura, etc..
+
+Beneficios / Contras
+Que valor genera el uso, coste y esfuerzo de una herramienta de este tipo para el proyecto a corto, medio, largo plazo.
+
+Alternativas
+Que alternativas existen en el mercado, como de flexibles son, costes para la empresa/cliente.

@@ -1,0 +1,34 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://rdfa.info/play/>
+   <fb:admins> "100004154058350"@en-GB;
+   og:site_name "BBC"@en-GB;
+   og:title "5 live Rugby League - BBC Radio 5 live"@en-GB;
+   og:url "http://www.bbc.co.uk/programmes/p02nrtxd"@en-GB;
+   <fb:pages> "194575130577797,7397061762,7833211321,129044383774217,401538510458,8251776107,273726292719943,107909022566650,21750735380,1477945425811579,944295152308991,154344434967,8244244903,512423982152360,156060587793370,215504865453262,260967092113,1392506827668140,193435954068976,7519460786,1143803202301544,1470145583204820,470911516262605,413132078795966,118883634811868,130593816777,228735667216,80758950658,260212261199,294662213128,1086451581439050,283348121682053,295830058648,239931389545417,304314573046,310719525611571,647687225371774,1159932557403143,286567251709437,1731770190373618,125309456546,742734325867560,168895963122035,292291897588734,658551547588605,156400551056385,185246968166196,1411916919051820,958681370814419,317278538359186,8585725981,1436581493296600,163571453661989,6025943146,193022337414607,1659215157653827"@en-GB;
+   og:type "website"@en-GB;
+   og:description "The latest news from the world of rugby league."@en-GB;
+   og:image "https://ichef.bbci.co.uk/images/ic/1200x675/p04v7p6h.jpg"@en-GB;
+   rdfa:usesVocabulary schema:;
+   rdf:type schema:Season .
+<http://www.bbc.co.uk/programmes/p02nrtxd>
+   rdf:type schema:Season;
+   schema:name "5 live Rugby League"@en-GB;
+   schema:image "https://ichef.bbci.co.uk/images/ic/480x270/p04v7p6h.jpg"@en-GB;
+   schema:description "A weekly podcast from BBC Radio 5 live featuring the latest rugby news, analysis and interview. With contributions from Dave Woods, George Riley, Stuart Pyke, coaches and players."@en-GB .
+<http://www.bbc.co.uk/programmes/p05x5kb6>
+   rdf:type schema:RadioEpisode;
+   schema:image "https://ichef.bbci.co.uk/images/ic/480x270/p05x5kcv.jpg"@en-GB;
+   schema:audio _:1;
+   schema:url <http://www.bbc.co.uk/programmes/p05x5kb6>;
+   schema:name "The Danger of Concussions"@en-GB .
+_:1 
+   rdf:type schema:AudioObject;
+   schema:url <http://www.bbc.co.uk/programmes/p05x5kb6#play>;
+   schema:description "A neurology expert reveals some shocking figures about head injuries in rugby league."@en-GB;
+   schema:thumbnailUrl "https://ichef.bbci.co.uk/images/ic/1920x1080/p05x5kcv.jpg"@en-GB;
+   schema:uploadDate "2018-02-05T16:00:00+00:00"@en-GB;
+   schema:name "The Danger of Concussions"@en-GB .
