@@ -50,7 +50,6 @@ Y si hicieramos desaparecer la estructura fija de los contenidos, areas y canale
 Como se define en la Web Semantica y Linked Data[1], crear un sistema de interaccion de datos, vocabularios y reglas para trabajar con los datos.
 
 
--------------------------------------------------------------------------
 
 Ya hemos descompuesto todo nuestro contenido, en entidades y conexiones volatiles, sin froma aparente.
 Como se puede utilizar esto, y con que fin?
@@ -74,46 +73,50 @@ Cuando quieres ver una programa en la tele que te interesa, puedes zapear los 60
 con las esperanza de encontar lo que estas buscando, o acceder directamente a una la lista con todas las cadenas
 
 
+Pongamos otro ejemplo, que afecta a mas integrantes de un projecto web.
+
+Los servicios web que una aplicacion utiliza, los puntos de union entre Front-End y Back-End
+Entre el almacenamiento y procesamiento  datos y la visualizacion ene l lado cliente.
+
+Obtener una lista de todos los servicios disponibles,
+o solo dedicados a cierta area
+o solo los relevantes para ciertas personas o tareas.
+
+Mostrar ciertas caracteristicas de los servicios: version, parametros,
+o ciertas caracteristicas que nos ayuden a clasificarlos.
+
+Mostrar historial, protocolos de conversaciones y decisiones relacionadas con este tema.
+
+Cuantas herramientasse ven involucardas en este contexto?
+A cuantas fuentes tendriamos que acceder para obtener la informacion que necesitamos?
+Estan relacionados unicamente programadores en este contexto, o hay tambien persoanas con otras funciones, que necesitanm accceder a este tipo de informacion?
+Obtienen esas personas realmente unicamenente la informacion relevante
+para sus necesidades o tareas? o teiene que moverse entre diferentes herramientas, enlaces
+como Swagger, Wikis, documentos, emails, hasta encontrar lo que realmente necesitan?
 
 
+En este contexto se plantea la posibilidad de implementar una herramienta en cualquier proyecto capaz de conectar los datos de las diferentes fuentes/herramientas que se utilizan durante la ejecucion del proyecto.
+La herramienta consiste en un conjunto de pipelines y tareas que procesan continuamente las fuentes y datos, generando y actualizando principalmente una base de datos que almacena las conexiones entre ellos.
 
+Los temas relacionados son varios, afectan a diferentes areas y plantean diversas cuestiones.
 
+Automatizacion
+Especifica el grado de automatizacion de la herramienta. Que papel juega el usuario en el sistema de datos.
 
+Integracion
+Se refiere a la integracion de las diferentes fuentes mediante Api u otros mecanismos.
+Que complejidad implica en cuanto a configuracion, mantenimiento, conocimiento necesarios.
 
+Usuarios
+Definicion de los diferentes tipos de usuario y la interaccion con la herramienta.
+En este aspecto es importante distinguir entre roles, seguridad, acceso a los datos.
 
+Mejoras practicas y standares
+Definir que standares utilizar en los elementos y areas del proyecto:
+standares en metadatos, formatos, arquitectura, etc..
 
+Beneficios / Contras
+Que valor genera el uso, coste y esfuerzo de una herramienta de este tipo para el proyecto a corto, medio, largo plazo.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[1] https://www.w3.org/standards/semanticweb/
+Alternativas
+Que alternativas existen en el mercado, como de flexibles son, costes para la empresa/cliente.
